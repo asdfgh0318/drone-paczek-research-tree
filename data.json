@@ -1,0 +1,97 @@
+{
+  "title": "Drone Paczek Research Tree",
+  "phases": [
+    {
+      "id": "dp1",
+      "title": "Phase 1 — Acoustic damping materials",
+      "color": "#3fb950"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "dp1-baseline",
+      "phaseId": "dp1",
+      "title": "Baseline — no materials",
+      "description": "Reference acoustic + performance capture of the drone-paczek rig with no covering/lining material applied. Establishes the dB floor every material treatment is compared against.",
+      "type": "test",
+      "status": "planned",
+      "parents": [],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
+      "id": "dp1-epp",
+      "phaseId": "dp1",
+      "title": "EPP foam",
+      "description": "Drone-paczek rig lined with EPP (expanded polypropylene) foam. Compared against the no-material baseline.",
+      "type": "test",
+      "status": "planned",
+      "parents": ["dp1-baseline"],
+      "geometry": {
+        "material": "epp",
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
+      "id": "dp1-thinsulate",
+      "phaseId": "dp1",
+      "title": "Thinsulate",
+      "description": "Drone-paczek rig lined with 3M Thinsulate acoustic insulation. Compared against the no-material baseline.",
+      "type": "test",
+      "status": "planned",
+      "parents": ["dp1-baseline"],
+      "geometry": {
+        "material": "thinsulate",
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
+      "id": "dp1-cardboard",
+      "phaseId": "dp1",
+      "title": "Cardboard",
+      "description": "Drone-paczek rig lined with cardboard. Compared against the no-material baseline.",
+      "type": "test",
+      "status": "planned",
+      "parents": ["dp1-baseline"],
+      "geometry": {
+        "material": "cardboard",
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
+      "id": "dp1-xps",
+      "phaseId": "dp1",
+      "title": "XPS foam",
+      "description": "Drone-paczek rig lined with XPS (extruded polystyrene) foam. Compared against the no-material baseline.",
+      "type": "test",
+      "status": "planned",
+      "parents": ["dp1-baseline"],
+      "geometry": {
+        "material": "xps",
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    }
+  ]
+}
