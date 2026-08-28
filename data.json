@@ -5,6 +5,11 @@
       "id": "dp1",
       "title": "Phase 1 — Acoustic damping materials",
       "color": "#3fb950"
+    },
+    {
+      "id": "dp1_synth",
+      "title": "Phase 1 — Synthesis",
+      "color": "#4a9eff"
     }
   ],
   "nodes": [
@@ -187,6 +192,91 @@
       ],
       "geometry": {
         "material": "cork",
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
+      "id": "dp1-eval-jul",
+      "phaseId": "dp1",
+      "title": "Evaluate — July material set",
+      "description": "Rank EPP / Thinsulate / cardboard / XPS against the 2026-07-24 baseline. Note the whole set shares one continuous 14.2 s ramp, so recirculation bias is common-mode across materials but not across PWM steps.",
+      "type": "synthesis",
+      "status": "planned",
+      "parents": [
+        "dp1-baseline",
+        "dp1-epp",
+        "dp1-thinsulate",
+        "dp1-cardboard",
+        "dp1-xps"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
+      "id": "dp1-eval-aug",
+      "phaseId": "dp1",
+      "title": "Evaluate — 2026-08-28 material set",
+      "description": "Rank felt / rubber / felt+rubber / cork against the 2026-08-28 baseline.",
+      "type": "synthesis",
+      "status": "planned",
+      "parents": [
+        "dp1-baseline-2026-08-28",
+        "dp1-felt",
+        "dp1-rubber",
+        "dp1-felt-rubber",
+        "dp1-cork"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
+      "id": "dp1s-material-ranking",
+      "phaseId": "dp1_synth",
+      "title": "Ranked linings, both sessions",
+      "description": "Combined ranking across both sessions. Each material must be normalised against ITS OWN session baseline before comparison — the two sessions used different rig states (mic count, stand host, battery), so absolute levels are not comparable across them.",
+      "type": "synthesis",
+      "status": "planned",
+      "parents": [
+        "dp1-eval-jul",
+        "dp1-eval-aug"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
+      "id": "dp1s-lining-choice",
+      "phaseId": "dp1_synth",
+      "title": "Chosen lining for the parcel drone",
+      "description": "Pick the lining to carry forward, trading noise reduction against added mass — a parcel drone pays for damping in payload.",
+      "type": "decision",
+      "status": "planned",
+      "parents": [
+        "dp1s-material-ranking"
+      ],
+      "geometry": {
+        "material": null,
         "weightG": null,
         "propellerInches": null,
         "motorSpacingMm": null
