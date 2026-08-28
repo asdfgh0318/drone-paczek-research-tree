@@ -151,7 +151,7 @@
       "title": "Felt",
       "description": "Drone-paczek rig lined with felt. Compared against the no-material baseline.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-baseline-2026-08-28"
       ],
@@ -161,7 +161,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__felt__dp1-felt",
       "notes": ""
     },
     {
