@@ -26,6 +26,25 @@
       "notes": ""
     },
     {
+      "id": "dp1-baseline-2026-08-28",
+      "phaseId": "dp1",
+      "title": "Baseline — no materials (2026-08-28)",
+      "description": "Fresh no-material reference captured 2026-08-28, on the rebuilt rig (11 UMIK-2 mics, Tyto on the Pi, 2S pack). Supersedes dp1-baseline (2026-07-24) as the comparison point for the felt / rubber / cork treatments measured in this session — comparing today's materials against a July baseline would confound the material effect with rig drift.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-baseline"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
       "id": "dp1-epp",
       "phaseId": "dp1",
       "title": "EPP foam",
@@ -109,7 +128,7 @@
       "type": "test",
       "status": "planned",
       "parents": [
-        "dp1-baseline"
+        "dp1-baseline-2026-08-28"
       ],
       "geometry": {
         "material": "felt",
@@ -128,7 +147,7 @@
       "type": "test",
       "status": "planned",
       "parents": [
-        "dp1-baseline"
+        "dp1-baseline-2026-08-28"
       ],
       "geometry": {
         "material": "rubber",
@@ -167,7 +186,7 @@
       "type": "test",
       "status": "planned",
       "parents": [
-        "dp1-baseline"
+        "dp1-baseline-2026-08-28"
       ],
       "geometry": {
         "material": "cork",
