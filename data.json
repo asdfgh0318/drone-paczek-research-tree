@@ -170,7 +170,7 @@
       "title": "Rubber",
       "description": "Drone-paczek rig lined with rubber. Compared against the no-material baseline.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-baseline-2026-08-28"
       ],
@@ -180,7 +180,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__rubber__dp1-rubber",
       "notes": ""
     },
     {
@@ -189,7 +189,7 @@
       "title": "Felt + rubber",
       "description": "Drone-paczek rig lined with a combined felt and rubber treatment — felt for absorption over rubber for mass/damping. Measured as its own treatment alongside the single materials, against the 2026-08-28 baseline.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-baseline-2026-08-28"
       ],
@@ -199,7 +199,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__felt-rubber__dp1-felt-rubber",
       "notes": ""
     },
     {
@@ -227,7 +227,7 @@
       "title": "Evaluate — 2026-08-28 material set",
       "description": "Rank felt / rubber / felt+rubber / cork against the 2026-08-28 baseline.",
       "type": "synthesis",
-      "status": "planned",
+      "status": "in-progress",
       "parents": [
         "dp1-felt",
         "dp1-rubber",
