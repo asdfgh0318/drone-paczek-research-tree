@@ -14,7 +14,7 @@
       "title": "Baseline — no materials",
       "description": "Reference acoustic + performance capture of the drone-paczek rig with no covering/lining material applied. Establishes the dB floor every material treatment is compared against.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [],
       "geometry": {
         "material": null,
@@ -22,7 +22,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline",
       "notes": ""
     },
     {
@@ -50,7 +50,7 @@
       "title": "EPP foam",
       "description": "Drone-paczek rig lined with EPP (expanded polypropylene) foam. Compared against the no-material baseline.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-baseline"
       ],
@@ -60,7 +60,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__epp__dp1-epp",
       "notes": ""
     },
     {
@@ -69,7 +69,7 @@
       "title": "Thinsulate",
       "description": "Drone-paczek rig lined with 3M Thinsulate acoustic insulation. Compared against the no-material baseline.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-baseline"
       ],
@@ -79,7 +79,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__thinsulate__dp1-thinsulate",
       "notes": ""
     },
     {
@@ -88,7 +88,7 @@
       "title": "Cardboard",
       "description": "Drone-paczek rig lined with cardboard. Compared against the no-material baseline.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-baseline"
       ],
@@ -98,7 +98,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__cardboard__dp1-cardboard",
       "notes": ""
     },
     {
@@ -107,7 +107,7 @@
       "title": "XPS foam",
       "description": "Drone-paczek rig lined with XPS (extruded polystyrene) foam. Compared against the no-material baseline.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-baseline"
       ],
@@ -117,7 +117,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__xps__dp1-xps",
       "notes": ""
     },
     {
