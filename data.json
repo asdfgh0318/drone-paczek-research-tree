@@ -134,7 +134,7 @@
       "title": "Baseline — no materials (2026-08-28)",
       "description": "Fresh no-material reference captured 2026-08-28 on the rebuilt rig (11 UMIK-2 mics, Tyto on the Pi, 2S pack). Independent root reference for this session's felt / rubber / felt+rubber / cork treatments — not a continuation of the 2026-07-24 baseline.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [],
       "geometry": {
         "material": null,
@@ -142,7 +142,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-2026-08-28",
       "notes": ""
     },
     {
@@ -208,7 +208,7 @@
       "title": "Cork",
       "description": "Drone-paczek rig lined with cork. Compared against the no-material baseline.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-baseline-2026-08-28"
       ],
@@ -218,7 +218,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__cork__dp1-cork",
       "notes": ""
     },
     {
