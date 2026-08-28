@@ -162,12 +162,11 @@
       "id": "dp1-felt-rubber",
       "phaseId": "dp1",
       "title": "Felt + rubber",
-      "description": "Drone-paczek rig lined with a combined felt and rubber treatment — felt for absorption over rubber for mass/damping. Compared against the no-material baseline and against each material alone.",
+      "description": "Drone-paczek rig lined with a combined felt and rubber treatment — felt for absorption over rubber for mass/damping. Measured as its own treatment alongside the single materials, against the 2026-08-28 baseline.",
       "type": "test",
       "status": "planned",
       "parents": [
-        "dp1-felt",
-        "dp1-rubber"
+        "dp1-baseline-2026-08-28"
       ],
       "geometry": {
         "material": "felt-rubber",
