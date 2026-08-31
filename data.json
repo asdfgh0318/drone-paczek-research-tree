@@ -254,6 +254,23 @@
       "notes": ""
     },
     {
+      "id": "dp1-baseline-horizontal-4",
+      "phaseId": "dp1",
+      "title": "Baseline — horizontal 4 (2026-08-31)",
+      "description": "Fourth no-material reference for the horizontal-plane measurements. Repeat baselines bound rig drift across the session — the spread between them sets the floor below which a material difference is not meaningful.",
+      "type": "test",
+      "status": "planned",
+      "parents": [],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
       "id": "dp1-felt-rubber",
       "phaseId": "dp1",
       "title": "Felt + rubber",
