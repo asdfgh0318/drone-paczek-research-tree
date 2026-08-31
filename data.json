@@ -184,6 +184,25 @@
       "notes": ""
     },
     {
+      "id": "dp1-rubber-horizontal",
+      "phaseId": "dp1",
+      "title": "Rubber — horizontal measurement",
+      "description": "Rubber lining measured in the horizontal plane, rather than the standard vertical elevation arc. Compared against the 2026-08-28 baseline and against the vertical-arc rubber run.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-baseline-2026-08-28"
+      ],
+      "geometry": {
+        "material": "rubber",
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
       "id": "dp1-felt-rubber",
       "phaseId": "dp1",
       "title": "Felt + rubber",
