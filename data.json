@@ -186,10 +186,10 @@
     {
       "id": "dp1-baseline-horizontal-2026-08-31",
       "phaseId": "dp1",
-      "title": "Baseline — horizontal measurement (2026-08-31)",
-      "description": "No-material reference for the horizontal-plane measurements, captured 2026-08-31. Independent root: horizontal-plane levels are not comparable with the vertical elevation arc, so the horizontal tests need their own reference rather than the 2026-08-28 vertical baseline.",
+      "title": "Baseline — horizontal 1 (2026-08-31)",
+      "description": "First no-material reference for the horizontal-plane measurements, captured 2026-08-31 13:46. Independent root: horizontal-plane levels are not comparable with the vertical elevation arc.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [],
       "geometry": {
         "material": null,
@@ -197,7 +197,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-2026-08-31",
       "notes": ""
     },
     {
@@ -212,6 +212,23 @@
       ],
       "geometry": {
         "material": "rubber",
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
+      "id": "dp1-baseline-horizontal-2",
+      "phaseId": "dp1",
+      "title": "Baseline — horizontal 2 (2026-08-31)",
+      "description": "Second no-material reference for the horizontal-plane measurements. Paired with horizontal 1 to bound rig drift across the session — material results only mean something to the extent the two baselines agree.",
+      "type": "test",
+      "status": "planned",
+      "parents": [],
+      "geometry": {
+        "material": null,
         "weightG": null,
         "propellerInches": null,
         "motorSpacingMm": null
