@@ -184,6 +184,23 @@
       "notes": ""
     },
     {
+      "id": "dp1-baseline-horizontal-2026-08-31",
+      "phaseId": "dp1",
+      "title": "Baseline — horizontal measurement (2026-08-31)",
+      "description": "No-material reference for the horizontal-plane measurements, captured 2026-08-31. Independent root: horizontal-plane levels are not comparable with the vertical elevation arc, so the horizontal tests need their own reference rather than the 2026-08-28 vertical baseline.",
+      "type": "test",
+      "status": "planned",
+      "parents": [],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
       "id": "dp1-rubber-horizontal",
       "phaseId": "dp1",
       "title": "Rubber — horizontal measurement",
@@ -191,7 +208,7 @@
       "type": "test",
       "status": "planned",
       "parents": [
-        "dp1-baseline-2026-08-28"
+        "dp1-baseline-horizontal-2026-08-31"
       ],
       "geometry": {
         "material": "rubber",
