@@ -189,7 +189,7 @@
       "title": "Baseline — horizontal 1 (2026-08-31)",
       "description": "First no-material reference for the horizontal-plane measurements. The 2026-08-31 13:46 capture was scrapped; awaiting a re-run. Independent root: horizontal-plane levels are not comparable with the vertical elevation arc.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [],
       "geometry": {
         "material": null,
@@ -197,7 +197,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-2026-08-31",
       "notes": ""
     },
     {
@@ -206,7 +206,7 @@
       "title": "Rubber — horizontal measurement",
       "description": "Rubber lining measured in the horizontal plane, rather than the standard vertical elevation arc. Compared against the 2026-08-28 baseline and against the vertical-arc rubber run.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-baseline-horizontal-2026-08-31"
       ],
@@ -216,7 +216,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__rubber__dp1-rubber-horizontal",
       "notes": ""
     },
     {
@@ -225,7 +225,7 @@
       "title": "Baseline — horizontal 2 (2026-08-31)",
       "description": "Second no-material reference for the horizontal-plane measurements. Paired with horizontal 1 to bound rig drift across the session — material results only mean something to the extent the two baselines agree.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [],
       "geometry": {
         "material": null,
@@ -233,7 +233,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-2",
       "notes": ""
     },
     {
@@ -242,7 +242,7 @@
       "title": "Baseline — horizontal 3 (2026-08-31)",
       "description": "Third no-material reference for the horizontal-plane measurements. Repeat baselines bound rig drift across the session — the spread between them sets the floor below which a material difference is not meaningful.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [],
       "geometry": {
         "material": null,
@@ -250,7 +250,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-3",
       "notes": ""
     },
     {
@@ -259,7 +259,7 @@
       "title": "Baseline — horizontal 4 (2026-08-31)",
       "description": "Fourth no-material reference for the horizontal-plane measurements. Repeat baselines bound rig drift across the session — the spread between them sets the floor below which a material difference is not meaningful.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [],
       "geometry": {
         "material": null,
@@ -267,7 +267,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-4",
       "notes": ""
     },
     {
@@ -276,7 +276,7 @@
       "title": "Baseline — horizontal 5 (2026-08-31)",
       "description": "Fifth no-material reference for the horizontal-plane measurements. Repeat baselines bound rig drift across the session — the spread between them sets the floor below which a material difference is not meaningful.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [],
       "geometry": {
         "material": null,
@@ -284,7 +284,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-5",
       "notes": ""
     },
     {
@@ -293,7 +293,7 @@
       "title": "Baseline — horizontal 6 (2026-08-31)",
       "description": "Sixth no-material reference for the horizontal-plane measurements. Repeat baselines bound rig drift across the session — the spread between them sets the floor below which a material difference is not meaningful.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [],
       "geometry": {
         "material": null,
@@ -301,8 +301,8 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
-      "notes": ""
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-6",
+      "notes": "Two ramps in this key (14:31:53 and 14:32:24). Results merges same-PWM captures, so pick one before comparing."
     },
     {
       "id": "dp1-felt-rubber",
