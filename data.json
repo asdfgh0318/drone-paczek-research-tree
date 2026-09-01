@@ -15,6 +15,11 @@
       "id": "dp1_prop",
       "title": "Phase 1 — Propeller sweep (horizontal)",
       "color": "#d29922"
+    },
+    {
+      "id": "dp1_scratch",
+      "title": "Phase 1 — Spare capture slots",
+      "color": "#8b949e"
     }
   ],
   "nodes": [
@@ -519,6 +524,213 @@
       },
       "soundVisualizerLink": "",
       "notes": "horizontal propeller 5"
+    },
+    {
+      "id": "dp1-spares",
+      "phaseId": "dp1_scratch",
+      "title": "Spare capture slots",
+      "description": "Holder for unassigned slots. Rename a spare to what it actually measured as soon as the run is done — a tree full of 'spare 4' is worse than no tree, because nothing records what the key contains.",
+      "type": "test",
+      "status": "planned",
+      "parents": [],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": ""
+    },
+    {
+      "id": "dp1-spare-1",
+      "phaseId": "dp1_scratch",
+      "title": "Spare 1",
+      "description": "Unassigned capture slot 1. Retitle and describe once used.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-spares"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "unassigned"
+    },
+    {
+      "id": "dp1-spare-2",
+      "phaseId": "dp1_scratch",
+      "title": "Spare 2",
+      "description": "Unassigned capture slot 2. Retitle and describe once used.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-spares"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "unassigned"
+    },
+    {
+      "id": "dp1-spare-3",
+      "phaseId": "dp1_scratch",
+      "title": "Spare 3",
+      "description": "Unassigned capture slot 3. Retitle and describe once used.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-spares"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "unassigned"
+    },
+    {
+      "id": "dp1-spare-4",
+      "phaseId": "dp1_scratch",
+      "title": "Spare 4",
+      "description": "Unassigned capture slot 4. Retitle and describe once used.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-spares"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "unassigned"
+    },
+    {
+      "id": "dp1-spare-5",
+      "phaseId": "dp1_scratch",
+      "title": "Spare 5",
+      "description": "Unassigned capture slot 5. Retitle and describe once used.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-spares"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "unassigned"
+    },
+    {
+      "id": "dp1-spare-6",
+      "phaseId": "dp1_scratch",
+      "title": "Spare 6",
+      "description": "Unassigned capture slot 6. Retitle and describe once used.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-spares"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "unassigned"
+    },
+    {
+      "id": "dp1-spare-7",
+      "phaseId": "dp1_scratch",
+      "title": "Spare 7",
+      "description": "Unassigned capture slot 7. Retitle and describe once used.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-spares"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "unassigned"
+    },
+    {
+      "id": "dp1-spare-8",
+      "phaseId": "dp1_scratch",
+      "title": "Spare 8",
+      "description": "Unassigned capture slot 8. Retitle and describe once used.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-spares"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "unassigned"
+    },
+    {
+      "id": "dp1-spare-9",
+      "phaseId": "dp1_scratch",
+      "title": "Spare 9",
+      "description": "Unassigned capture slot 9. Retitle and describe once used.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-spares"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "unassigned"
+    },
+    {
+      "id": "dp1-spare-10",
+      "phaseId": "dp1_scratch",
+      "title": "Spare 10",
+      "description": "Unassigned capture slot 10. Retitle and describe once used.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-spares"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "unassigned"
     }
   ]
 }
