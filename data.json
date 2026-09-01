@@ -305,6 +305,23 @@
       "notes": "Two ramps in this key (14:31:53 and 14:32:24). Results merges same-PWM captures, so pick one before comparing."
     },
     {
+      "id": "dp1-baseline-horizontal-7",
+      "phaseId": "dp1",
+      "title": "Baseline — horizontal 7, propeller 1 (2026-08-31)",
+      "description": "No-material horizontal-plane reference for propeller 1. Baselines 1-6 were repeats of one configuration; this one changes the propeller, so it is a separate reference rather than another repeat — material results must be compared against the baseline sharing their propeller.",
+      "type": "test",
+      "status": "planned",
+      "parents": [],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "horizontal propeller 1"
+    },
+    {
       "id": "dp1-felt-rubber",
       "phaseId": "dp1",
       "title": "Felt + rubber",
