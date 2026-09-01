@@ -576,6 +576,63 @@
       },
       "soundVisualizerLink": "",
       "notes": "horizontal propeller 8"
+    },
+    {
+      "id": "dp1-baseline-horizontal-prop9",
+      "phaseId": "dp1_prop",
+      "title": "Baseline — horizontal, propeller 9",
+      "description": "No-material horizontal-plane reference for propeller 9. Any material measured with propeller 9 must be compared against this baseline, not another propeller's.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-prop-sweep-horizontal"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "horizontal propeller 9"
+    },
+    {
+      "id": "dp1-baseline-horizontal-prop10",
+      "phaseId": "dp1_prop",
+      "title": "Baseline — horizontal, propeller 10",
+      "description": "No-material horizontal-plane reference for propeller 10. Any material measured with propeller 10 must be compared against this baseline, not another propeller's.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-prop-sweep-horizontal"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "horizontal propeller 10"
+    },
+    {
+      "id": "dp1-baseline-horizontal-prop11",
+      "phaseId": "dp1_prop",
+      "title": "Baseline — horizontal, propeller 11",
+      "description": "No-material horizontal-plane reference for propeller 11. Any material measured with propeller 11 must be compared against this baseline, not another propeller's.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-prop-sweep-horizontal"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "horizontal propeller 11"
     }
   ]
 }
