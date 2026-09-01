@@ -526,7 +526,7 @@
       "title": "Baseline — horizontal, propeller 6",
       "description": "No-material horizontal-plane reference for propeller 6. Any material measured with propeller 6 must be compared against this baseline, not another propeller's.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-prop-sweep-horizontal"
       ],
@@ -536,7 +536,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-prop6",
       "notes": "horizontal propeller 6"
     },
     {
