@@ -640,7 +640,7 @@
       "title": "Baseline — horizontal, propeller 12",
       "description": "No-material horizontal-plane reference for propeller 12. Any material measured with propeller 12 must be compared against this baseline, not another propeller's. Mic arc re-verified by tapping on 2026-09-02 (preset 11-mic preset_02_09).",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-prop-sweep-horizontal"
       ],
@@ -650,8 +650,8 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
-      "notes": "horizontal propeller 12"
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-prop12",
+      "notes": "horizontal propeller 12 — captured 2026-09-02"
     },
     {
       "id": "dp1-baseline-horizontal-prop13",
@@ -716,7 +716,7 @@
       "title": "Baseline — horizontal, propeller 16",
       "description": "No-material horizontal-plane reference for propeller 16. Any material measured with propeller 16 must be compared against this baseline, not another propeller's. Mic arc re-verified by tapping on 2026-09-02 (preset 11-mic preset_02_09).",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-prop-sweep-horizontal"
       ],
@@ -726,8 +726,8 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
-      "notes": "horizontal propeller 16"
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-prop16",
+      "notes": "horizontal propeller 16 — captured 2026-09-02"
     },
     {
       "id": "dp1-baseline-horizontal-prop17",
