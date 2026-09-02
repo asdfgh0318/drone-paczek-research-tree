@@ -735,7 +735,7 @@
       "title": "Baseline — horizontal, propeller 17",
       "description": "No-material horizontal-plane reference for propeller 17. Any material measured with propeller 17 must be compared against this baseline, not another propeller's.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-prop-sweep-horizontal"
       ],
@@ -745,8 +745,8 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
-      "notes": "horizontal propeller 17"
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-prop17",
+      "notes": "horizontal propeller 17 — captured 2026-09-02 18:52, initially stored under prop16 and moved"
     },
     {
       "id": "dp1-baseline-horizontal-prop18",
