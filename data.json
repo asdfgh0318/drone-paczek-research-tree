@@ -659,7 +659,7 @@
       "title": "Baseline — horizontal, propeller 13",
       "description": "No-material horizontal-plane reference for propeller 13. Any material measured with propeller 13 must be compared against this baseline, not another propeller's. Mic arc re-verified by tapping on 2026-09-02 (preset 11-mic preset_02_09).",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-prop-sweep-horizontal"
       ],
@@ -669,8 +669,8 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
-      "notes": "horizontal propeller 13"
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-prop13",
+      "notes": "horizontal propeller 13 — captured 2026-09-02"
     },
     {
       "id": "dp1-baseline-horizontal-prop14",
@@ -678,7 +678,7 @@
       "title": "Baseline — horizontal, propeller 14",
       "description": "No-material horizontal-plane reference for propeller 14. Any material measured with propeller 14 must be compared against this baseline, not another propeller's. Mic arc re-verified by tapping on 2026-09-02 (preset 11-mic preset_02_09).",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-prop-sweep-horizontal"
       ],
@@ -688,8 +688,8 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
-      "notes": "horizontal propeller 14"
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-prop14",
+      "notes": "horizontal propeller 14 — captured 2026-09-02. Reference run for the 180° rotation test (see prop 15). One-off dip at +54° (~5 dB low), not reproduced in prop 15."
     },
     {
       "id": "dp1-baseline-horizontal-prop15",
@@ -697,7 +697,7 @@
       "title": "Baseline — horizontal, propeller 15",
       "description": "No-material horizontal-plane reference for propeller 15. Any material measured with propeller 15 must be compared against this baseline, not another propeller's. Mic arc re-verified by tapping on 2026-09-02 (preset 11-mic preset_02_09).",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-prop-sweep-horizontal"
       ],
@@ -707,8 +707,8 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
-      "notes": "horizontal propeller 15"
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-prop15",
+      "notes": "horizontal propeller 15 — captured 2026-09-02 with the mic arc turned 180°. Rotation (reciprocity) test against prop 14: mirrored pairs agree within ~1 dB mean, same-mic pairs do not → the elevation pattern is fixed to the room/rig, not the prop. First attempt died on a full data partition and was rerun."
     },
     {
       "id": "dp1-baseline-horizontal-prop16",
