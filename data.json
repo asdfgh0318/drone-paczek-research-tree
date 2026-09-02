@@ -545,7 +545,7 @@
       "title": "Baseline — horizontal, propeller 7",
       "description": "No-material horizontal-plane reference for propeller 7. Any material measured with propeller 7 must be compared against this baseline, not another propeller's.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-prop-sweep-horizontal"
       ],
@@ -555,7 +555,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-prop7",
       "notes": "horizontal propeller 7"
     },
     {
@@ -564,7 +564,7 @@
       "title": "Baseline — horizontal, propeller 8",
       "description": "No-material horizontal-plane reference for propeller 8. Any material measured with propeller 8 must be compared against this baseline, not another propeller's.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-prop-sweep-horizontal"
       ],
@@ -574,7 +574,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-prop8",
       "notes": "horizontal propeller 8"
     },
     {
@@ -583,7 +583,7 @@
       "title": "Baseline — horizontal, propeller 9",
       "description": "No-material horizontal-plane reference for propeller 9. Any material measured with propeller 9 must be compared against this baseline, not another propeller's.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-prop-sweep-horizontal"
       ],
@@ -593,7 +593,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-prop9",
       "notes": "horizontal propeller 9"
     },
     {
@@ -602,7 +602,7 @@
       "title": "Baseline — horizontal, propeller 10",
       "description": "No-material horizontal-plane reference for propeller 10. Any material measured with propeller 10 must be compared against this baseline, not another propeller's.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-prop-sweep-horizontal"
       ],
@@ -612,7 +612,7 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-prop10",
       "notes": "horizontal propeller 10"
     },
     {
@@ -621,7 +621,7 @@
       "title": "Baseline — horizontal, propeller 11",
       "description": "No-material horizontal-plane reference for propeller 11. Any material measured with propeller 11 must be compared against this baseline, not another propeller's.",
       "type": "test",
-      "status": "planned",
+      "status": "done",
       "parents": [
         "dp1-prop-sweep-horizontal"
       ],
@@ -631,8 +631,8 @@
         "propellerInches": null,
         "motorSpacingMm": null
       },
-      "soundVisualizerLink": "",
-      "notes": "horizontal propeller 11"
+      "soundVisualizerLink": "http://sound-viz.local:8000/results#key=2004__6in__unset__dp1-baseline-horizontal-prop11",
+      "notes": "horizontal propeller 11 — captured 2026-09-02, initially stored under prop7 and moved"
     },
     {
       "id": "dp1-baseline-horizontal-prop12",
@@ -728,6 +728,63 @@
       },
       "soundVisualizerLink": "",
       "notes": "horizontal propeller 16"
+    },
+    {
+      "id": "dp1-baseline-horizontal-prop17",
+      "phaseId": "dp1_prop",
+      "title": "Baseline — horizontal, propeller 17",
+      "description": "No-material horizontal-plane reference for propeller 17. Any material measured with propeller 17 must be compared against this baseline, not another propeller's.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-prop-sweep-horizontal"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "horizontal propeller 17"
+    },
+    {
+      "id": "dp1-baseline-horizontal-prop18",
+      "phaseId": "dp1_prop",
+      "title": "Baseline — horizontal, propeller 18",
+      "description": "No-material horizontal-plane reference for propeller 18. Any material measured with propeller 18 must be compared against this baseline, not another propeller's.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-prop-sweep-horizontal"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "horizontal propeller 18"
+    },
+    {
+      "id": "dp1-baseline-horizontal-prop19",
+      "phaseId": "dp1_prop",
+      "title": "Baseline — horizontal, propeller 19",
+      "description": "No-material horizontal-plane reference for propeller 19. Any material measured with propeller 19 must be compared against this baseline, not another propeller's.",
+      "type": "test",
+      "status": "planned",
+      "parents": [
+        "dp1-prop-sweep-horizontal"
+      ],
+      "geometry": {
+        "material": null,
+        "weightG": null,
+        "propellerInches": null,
+        "motorSpacingMm": null
+      },
+      "soundVisualizerLink": "",
+      "notes": "horizontal propeller 19"
     }
   ]
 }
